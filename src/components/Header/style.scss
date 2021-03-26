@@ -1,0 +1,17 @@
+header {
+  padding: 10px 20px;
+  display: flex;
+  border-bottom: 2px solid #eee;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    li {
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+}
