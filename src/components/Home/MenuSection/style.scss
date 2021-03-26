@@ -1,0 +1,16 @@
+.menu-section {
+  
+  > .menu-container {
+    width: 500px;
+    background-color: #fff;
+    
+    ul {
+      display: flex;
+      flex-direction: column;
+
+      li {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
