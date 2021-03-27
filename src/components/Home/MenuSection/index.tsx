@@ -1,13 +1,13 @@
 import React from 'react';
 import { ReactMegaMenu } from 'react-mega-menu';
-import { IMenuData } from '../index';
+import { MenuData } from '../index';
 import './style.scss'
 
-interface IMenuSectionProps {
-  data: IMenuData[]
+interface MenuSectionProps {
+  data: MenuData[]
 }
 
-const MenuSection: React.FC<IMenuSectionProps> = ({ data }) => {
+const MenuSection: React.FC<MenuSectionProps> = ({ data }) => {
 
   return (
     <div className="menu-section">
